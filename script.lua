@@ -412,7 +412,7 @@ local function YKJHO_fake_script() -- Ah.LocalScript
 	local A_2 = "All"
 	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 	script.Parent.MouseButton1Click:Connect(function()
-		A_1 = "А̡̧̳̼͌͋͐̕х̢̩̹̺̮̬͆̽̏́̅͠у̨̛̜̯̣̘̿̅͑̊̕͜е̧̮̠̱͐͊͗͂т͉̼̭̻͉̼̅̓̃̃͋̕ь̡̨̧̧̟̬͎̞͓̱̗͈̞̙̪̮̥̫͎̼̺͕̩̣̲͎͗̔̐̀̀͂̃̕͠͞ͅ"
+		A_1 = "А̡̧̳̼͌͋͐̕х̢̩̹̺̮̬͆̽̏́̅͠у̨̛̜̯̣̘̿̅͑̊̕͜е̧̮̠̱͐͊͗͂т͉̼̭̻͉̼̅̓̃̃͋̕ь̡̨̟̬͎̞͓͗̔̐̀̕͠͞"
 		Event:FireServer(A_1, A_2)
 	end)
 end
